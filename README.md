@@ -1,43 +1,38 @@
-# Learning template [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-template/blob/main/LICENSE)
+# Learning [GSAP](https://github.com/greensock/GSAP) (GreenSock Animation Platform)
+
+Basically the best from both CSS and jQuery: fast like CSS animations, but higher control and browser compatibility like jQuery animations.
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-(To create a convenience script repo, use this template instead: https://github.com/hchiam/convenience)
+## Setup
 
-(To create a website fast, use a code generator like [`create-next-app`](https://github.com/hchiam/learning-nextjs), [`sapper`](https://github.com/hchiam/learning-sapper), a [svelte template](https://github.com/sveltejs/template), or [`yo`](https://yeoman.io/generators) )
-
-<!-- Add reference link(s) here -->
-
-## From scratch
-
-Using [`yarn`](https://github.com/hchiam/learning-yarn):
-
-```bash
-yarn add
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 ```
 
-Or with `npm`:
+or: [npm install gsap](https://greensock.com/docs/Installation)
 
-```bash
-npm install
-```
+## Quick reference
 
-And then:
+Clickable props link to docs: <https://greensock.com/cheatsheet>
 
-```bash
+## Learning
 
-```
+- Tutorials: <https://greensock.com/learning> 
+- <https://www.youtube.com/watch?v=YqOhQWbouCE> and <https://www.youtube.com/watch?v=oNXX2iww5Is>
 
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
+## Further references
 
-Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
+- Most popular features, with codepen demos: <https://greensock.com/get-started>
+- Draggable: <https://greensock.com/draggable>
+- Forked ScrollTrigger demo: <https://codepen.io/hchiam/pen/xxdQgVP> shows how easy it is to do scroll-based animation
 
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
-```
+## Why
 
-Or with `npm`: (triple-click to select all)
+Certain properties for CSS animations are hardware-accelerated, and simpler animations can be done with CSS, but for better perf than jQuery animations and more complex animation control than can be easily-manageably done with with CSS, use GSAP.
 
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
-```
+- <https://stackoverflow.com/a/39889847>
+- <https://greensock.com/transitions>
+- <https://greensock.com/why-gsap>
+- <https://css-tricks.com/tips-for-writing-animation-code-efficiently>
+- <https://greensock.com/css-performance>
