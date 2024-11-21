@@ -1,5 +1,7 @@
 # Learning [GSAP](https://github.com/greensock/GSAP) (GreenSock Animation Platform)
 
+https://gsap.com
+
 Basically the best from both CSS and jQuery: fast like CSS animations, but higher control and browser compatibility like jQuery animations.
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
@@ -14,7 +16,7 @@ or: [npm install gsap](https://greensock.com/docs/Installation)
 
 ## Quick reference
 
-Clickable props link to docs: <https://greensock.com/cheatsheet>
+Clickable props link to docs: https://gsap.com/cheatsheet (used to be https://greensock.com/cheatsheet)
 
 ## Learning
 
